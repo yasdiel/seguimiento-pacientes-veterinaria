@@ -10,10 +10,10 @@ La aplicación permite realizar las operaciones esenciales de crear, leer, edita
 
 El proyecto está construido con tecnologías modernas que garantizan un desarrollo ágil y una experiencia de usuario fluida:
 
-· Vite: Como herramienta de construcción y servidor de desarrollo, ofreciendo una velocidad excepcional.
-· React: Para construir una interfaz de usuario interactiva y basada en componentes reutilizables.
-· Tailwind CSS: Para diseñar una interfaz sencilla y agradable de manera rápida y consistente, utilizando su enfoque de utilidades.
-· LocalStorage del Navegador: Para la persistencia de datos. Toda la información de los pacientes se guarda directamente en el navegador del usuario, lo que evita la pérdida de datos entre sesiones sin necesidad de un backend complejo.
+-Vite: Como herramienta de construcción y servidor de desarrollo, ofreciendo una velocidad excepcional.
+-React: Para construir una interfaz de usuario interactiva y basada en componentes reutilizables.
+-Tailwind CSS: Para diseñar una interfaz sencilla y agradable de manera rápida y consistente, utilizando su enfoque de utilidades.
+-LocalStorage del Navegador: Para la persistencia de datos. Toda la información de los pacientes se guarda directamente en el navegador del usuario, lo que evita la pérdida de datos entre sesiones sin necesidad de un backend complejo.
 
 ## 🎯 Objetivo
 
