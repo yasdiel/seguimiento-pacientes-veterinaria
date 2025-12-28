@@ -4,7 +4,7 @@ Seguimiento Pacientes Veterinaria es una aplicación web diseñada específicame
 
 La aplicación permite realizar las operaciones esenciales de crear, leer, editar y eliminar (CRUD) los registros de los pacientes, reemplazando métodos tradicionales poco eficientes como libretas u hojas de cálculo.
 
-🌐 Sitio en Vivo: https://seguimiento-pacientes-veterinaria.netlify.app 
+🌐 Sitio en Vivo: https://pacientes-veterinaria-control.netlify.app 
 
 ## 🧩 Stack Tecnológico
 
