@@ -22,28 +22,28 @@
 
 El proyecto está construido con tecnologías modernas que garantizan un desarrollo ágil y una experiencia de usuario fluida:
 
-· Vite: Como herramienta de construcción y servidor de desarrollo, ofreciendo una velocidad excepcional.
-· React: Para construir una interfaz de usuario interactiva y basada en componentes reutilizables.
-· Tailwind CSS: Para diseñar una interfaz sencilla y agradable de manera rápida y consistente, utilizando su enfoque de utilidades.
-· LocalStorage del Navegador: Para la persistencia de datos. Toda la información de los pacientes se guarda directamente en el navegador del usuario, lo que evita la pérdida de datos entre sesiones sin necesidad de un backend complejo.
+- Vite: Como herramienta de construcción y servidor de desarrollo, ofreciendo una velocidad excepcional.
+- React: Para construir una interfaz de usuario interactiva y basada en componentes reutilizables.
+- Tailwind CSS: Para diseñar una interfaz sencilla y agradable de manera rápida y consistente, utilizando su enfoque de utilidades.
+- LocalStorage del Navegador: Para la persistencia de datos. Toda la información de los pacientes se guarda directamente en el navegador del usuario, lo que evita la pérdida de datos entre sesiones sin necesidad de un backend complejo.
 
 ## 📁 Estructura del Proyecto
 
 seguimiento-pacientes-veterinaria/
-├── src/                    # Código fuente principal
-│   ├── components/         # Componentes React reutilizables
-│   │   ├── Error.jsx       # Componente para mostrar mensajes de error
-│   │   ├── Formulario.jsx  # Formulario para crear/editar pacientes
-│   │   ├── Header.jsx      # Cabecera de la aplicación
-│   │   ├── ListadoPacientes.jsx # Lista principal de pacientes
-│   │   └── Paciente.jsx    # Componente individual para cada paciente
-│   ├── App.jsx             # Componente raíz de la aplicación
-│   ├── index.css           # Estilos globales (Tailwind CSS)
-│   └── main.jsx            # Punto de entrada que renderiza la app
-├── eslint.config.js        # Configuración de ESLint para calidad de código
-├── index.html              # Plantilla HTML principal
-├── package.json            # Dependencias y scripts del proyecto
-└── package-lock.json       # Versiones exactas de dependencias
+- ├── src/                    # Código fuente principal
+- │   ├── components/         # Componentes React reutilizables
+- │   │   ├── Error.jsx       # Componente para mostrar mensajes de error
+- │   │   ├── Formulario.jsx  # Formulario para crear/editar pacientes
+- │   │   ├── Header.jsx      # Cabecera de la aplicación
+- │   │   ├── ListadoPacientes.jsx # Lista principal de pacientes
+- │   │   └── Paciente.jsx    # Componente individual para cada paciente
+- │   ├── App.jsx             # Componente raíz de la aplicación
+- │   ├── index.css           # Estilos globales (Tailwind CSS)
+- │   └── main.jsx            # Punto de entrada que renderiza la app
+- ├── eslint.config.js        # Configuración de ESLint para calidad de código
+- ├── index.html              # Plantilla HTML principal
+- ├── package.json            # Dependencias y scripts del proyecto
+- └── package-lock.json       # Versiones exactas de dependencias
 
 
 
