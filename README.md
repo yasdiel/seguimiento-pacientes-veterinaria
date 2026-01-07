@@ -28,30 +28,76 @@ El proyecto está construido con tecnologías modernas que garantizan un desarro
 - LocalStorage del Navegador: Para la persistencia de datos. Toda la información de los pacientes se guarda directamente en el navegador del usuario, lo que evita la pérdida de datos entre sesiones sin necesidad de un backend complejo.
 
 ## 📁 Estructura del Proyecto
-
+```bash
 seguimiento-pacientes-veterinaria/
-- ├── src/                    # Código fuente principal
-- │   ├── components/         # Componentes React reutilizables
-- │   │   ├── Error.jsx       # Componente para mostrar mensajes de error
-- │   │   ├── Formulario.jsx  # Formulario para crear/editar pacientes
-- │   │   ├── Header.jsx      # Cabecera de la aplicación
-- │   │   ├── ListadoPacientes.jsx # Lista principal de pacientes
-- │   │   └── Paciente.jsx    # Componente individual para cada paciente
-- │   ├── App.jsx             # Componente raíz de la aplicación
-- │   ├── index.css           # Estilos globales (Tailwind CSS)
-- │   └── main.jsx            # Punto de entrada que renderiza la app
-- ├── eslint.config.js        # Configuración de ESLint para calidad de código
-- ├── index.html              # Plantilla HTML principal
-- ├── package.json            # Dependencias y scripts del proyecto
-- └── package-lock.json       # Versiones exactas de dependencias
+├── src/                    # Código fuente principal
+│   ├── components/         # Componentes React reutilizables
+│   │   ├── Error.jsx       # Componente para mostrar mensajes de error
+│   │   ├── Formulario.jsx  # Formulario para crear/editar pacientes
+│   │   ├── Header.jsx      # Cabecera de la aplicación
+│   │   ├── ListadoPacientes.jsx # Lista principal de pacientes
+│   │   └── Paciente.jsx    # Componente individual para cada paciente
+│   ├── App.jsx             # Componente raíz de la aplicación
+│   ├── index.css           # Estilos globales (Tailwind CSS)
+│   └── main.jsx            # Punto de entrada que renderiza la app
+├── eslint.config.js        # Configuración de ESLint para calidad de código
+├── index.html              # Plantilla HTML principal
+├── package.json            # Dependencias y scripts del proyecto
+└── package-lock.json       # Versiones exactas de dependencias
+```
 
 
 ## Usarlo de manera local
-1. Clone the repository
+1. Clonar El Repositorio
 
 ```bash
+# Clonar usando HTTPS
 git clone https://github.com/yasdiel/seguimiento-pacientes-veterinaria.git  
+
+# Navegar al directorio del proyecto
 cd seguimiento-pacientes-veterinaria
+```
+
+2. Instalar Dependencias
+```bash
+# Instalar todas las dependencias del package.json
+npm install
+```
+
+3. Verificar la Instalación
+```bash
+# Verificar que las dependencias se instalaron correctamente
+npm list --depth=0
+
+# Deberías ver algo como:
+# seguimiento-pacientes-veterinaria@1.0.0
+# ├── react@18.x.x
+# ├── react-dom@18.x.x
+# ├── vite@5.x.x
+# └── tailwindcss@3.x.x
+```
+
+4. Desarrollo
+```bash
+# Iniciar servidor de desarrollo en modo hot-reload
+npm run dev
+
+# La aplicación estará disponible en:
+# - Local:   http://localhost:5173
+```
+
+5. Produccion
+```bash
+# Construir la aplicación para producción
+npm run build
+
+# Los archivos optimizados se generarán en la carpeta /dist
+# Puedes servir esta carpeta con cualquier servidor estático
+
+# Previsualizar la build de producción localmente
+npm run preview
+
+# Esto sirve la carpeta /dist en http://localhost:4173
 ```
 
 ## 🎯 Objetivo
