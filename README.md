@@ -71,10 +71,10 @@ npm list --depth=0
 
 # Deberías ver algo como:
 # seguimiento-pacientes-veterinaria@1.0.0
-# ├── react@18.x.x
-# ├── react-dom@18.x.x
-# ├── vite@5.x.x
-# └── tailwindcss@3.x.x
+# ├── react@19.2.0
+# ├── react-dom@19.2.0
+# ├── vite@7.2.5
+# └── tailwindcss@4.1.18
 ```
 
 4. Desarrollo
