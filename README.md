@@ -46,6 +46,12 @@ seguimiento-pacientes-veterinaria/
 - └── package-lock.json       # Versiones exactas de dependencias
 
 
+## Usarlo de manera local
+1. Clone the repository
+
+```bash
+git clone https://github.com/yasdiel/seguimiento-pacientes-veterinaria.git  
+cd seguimiento-pacientes-veterinaria
 
 ## 🎯 Objetivo
 
