@@ -52,6 +52,7 @@ seguimiento-pacientes-veterinaria/
 ```bash
 git clone https://github.com/yasdiel/seguimiento-pacientes-veterinaria.git  
 cd seguimiento-pacientes-veterinaria
+```
 
 ## 🎯 Objetivo
 
