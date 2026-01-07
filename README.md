@@ -47,7 +47,7 @@ seguimiento-pacientes-veterinaria/
 ```
 
 
-## Usarlo de manera local
+## 🚀 Instalación y Despliegue
 1. Clonar El Repositorio
 
 ```bash
@@ -86,7 +86,7 @@ npm run dev
 # - Local:   http://localhost:5173
 ```
 
-5. Produccion
+5. Producción
 ```bash
 # Construir la aplicación para producción
 npm run build
