@@ -47,7 +47,7 @@ seguimiento-pacientes-veterinaria/
 ```
 
 
-## 🚀 Instalación y Despliegue
+## 🚀 Instalación 
 1. Clonar El Repositorio
 
 ```bash
